@@ -1,0 +1,304 @@
+
+/*фоновое изображение хедера*/
+
+.header-image{
+    background-color: #eef1ec;
+    height: 100%;
+}
+/*новая цветовая гамма хедера*/
+.header__logo a{
+    color: #0f5f5c;
+}
+div.header__logo span.telephone,
+.telephone a,
+.telephone i,
+.header__list a{
+    color: #83a7a5;
+}
+div.header__logo span.telephone{
+	border-left: solid 2px #83a7a5;
+}
+/*выделение активной страницы*/
+#p_pricing{
+    font-weight: 700;
+}
+/*начало основного содержимого сайта*/
+/*стили для текста*/
+h1.chapter{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: #0f5f5c;
+    font-weight: 300;
+    font-size: 32px;
+}
+div.line{
+    border-bottom: solid #6fb048 1px;
+    width: 65px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+div.chapter{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: #97b4b3;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 18px;
+}
+
+/*начало 5-го блока. Блок с прайсом.*/
+
+.block5-1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 95px;
+    flex-direction: column;
+}
+.block5-1 h1{
+    width: 50%;
+    margin-left: 25%;
+}
+.block5-2{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.block5-2 div{
+    flex: 0 0 15%;
+    border: solid #c1d3d2 1px;
+    margin-left: -1px;
+    position: relative;
+}
+h3.categories{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: #6fb048;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 16px;
+}
+p.icon-dollar{
+    font-family: 'Montserrat', ' Helvetica',sans-serif;
+    color: black;
+    font-size: 65px;
+    font-weight: 700;
+}
+p.month{
+    position: absolute; 
+    left: 42%; 
+    top: 130px;
+    font-family: 'Montserrat', ' Helvetica',sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+.block5-2 div p:last-of-type{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: #97b4b3;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 2em;
+}
+.block5-2 button{
+    width: 140px;
+    height: 40px;
+    margin: 25px;
+}
+#last-line{
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 60px;
+}
+
+/*начало 6-го блока*/
+
+.block6-1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 75px;
+    flex-direction: column;
+}
+.block6-2{
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 25px;
+}
+.block6-2 div{
+    flex: 0 0 25%;
+}
+.block6-2 p{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: #97b4b3;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.block6-2 div:first-of-type{
+    margin-left: 10%;
+}
+.block6-2 div:last-of-type{
+    margin-right: 10%;
+}
+
+/*7-ой блок. Помощь.*/
+
+.block7-1{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.block7-1 h1.chapter{
+    color:#6fb048;
+}
+.block7-1 div:last-of-type{
+    font-family: 'Roboto', 'Arial',sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 36px;
+}
+
+/*8-ой блок. "Скачать"*/
+.cover-img8{
+    background: url(/image/Layer-10.png) no-repeat center center;
+    width: 100%;
+    height: 200px;
+    margin-top: 90px;
+}
+.block8-1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    height: 200px;
+}
+.block8-1 div:first-child{
+    flex: 0 0 35%;
+}
+.block8-1 div:last-child{
+    flex: 0 0 16%;
+}
+.block8-1 h1{
+    font-size: 28px;
+}
+.block8-1 div.chapter{
+    padding-top: 2px;
+}
+.block8-1 button{
+    width: 285px;
+    height: 42px;
+}
+
+/* НАЧАЛО АДАПТИВА! БРЕЙКПОИНТЫ!*/
+
+@media (max-width:992px){
+    body{
+        max-width: 750px;
+    }
+    .block5-1{
+        margin-top: 135px;
+    }
+    .block5-1 h1{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width:767px){
+    body{
+        max-width: none;
+    }
+    .block5-1{
+        margin-top: 230px;
+    }
+    .block5-1 h1{
+        width: 96%;
+        margin-left: 3%;
+    }
+}
+
+@media (max-width:690px){
+
+    /*Блок 5. Прайс*/
+    .block5-1{
+        display:flex;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #last-line{
+        margin-top: 0px;
+        padding-bottom: 30px;
+    }
+    /*адаптив 6-ой секции.*/
+    .block6-1{
+        margin-top: 40px;
+    }
+    .block6-2{
+        display:flex;
+        justify-content: space-between;
+        text-align: left;
+        margin-top: 25px;
+    }
+    .block6-2 div{
+        flex: 0 0 28%;
+    }
+    .block6-2 p{
+        padding-left: 0px;
+    }
+    .block6-2 div:first-of-type{
+        margin-left: 3%;
+    }
+    .block6-2 div:last-of-type{
+        margin-right: 3%;
+    }
+
+    /*8-ой блок. "Скачать"*/
+    .cover-img8{
+        margin-top: 50px;
+    }
+    .block8-1{
+        text-align: center;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .block8-1 div:first-child{
+        flex: 0 0 35%;
+    }
+    .block8-1 div:last-child{
+        flex: 0 0 25%;
+    }
+    .block8-1 button{
+        width: 285px;
+        height: 42px;
+    }  
+}
+
+@media (max-width:600px){
+
+    /*Блок с прайсом*/
+    .block5-2{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .block5-2 div{
+        flex: 0 0 5%;
+        border: solid #c1d3d2 1px;
+        margin-top: -1px;
+        position: relative;
+    }
+}

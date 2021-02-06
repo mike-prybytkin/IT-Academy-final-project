@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=UTF-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+        <title>Wapik</title>
+        <link rel="icon" href="image/favicon.PNG" type="image/png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet' href='style/style.css' type='text/css'>
+        <link rel='stylesheet' href='style/contactUs.css' type='text/css'>
+    </head>
+    <body>
+        <header class="header-image">
+            <div class='container'>                   
+                <div class="header__body">
+                    <div class="header__logo"><a href='#' title="wapik">WAPIK</a>
+                        <span class="telephone"><i class="icon-phone"></i><a href="tel:+1234567890" title="telephone">&plus;62 202 555 0117</a></span>
+                    </div>                        
+                    <div class="header__burger">
+                        <span><i class="icon-down-dir"></i></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a id='p_home' href='home.html' title="home">HOME</a></li>
+                            <li><a id='p_about_us' href='aboutUs.html' title="about us">ABOUT US</a></li>
+                            <li><a id='p_pricing' href='pricing.html' title="pricing">PRICING</a></li>
+                            <li><a id='p_contact_us' href='contactUs.html' title="contact us">CONTACT US</a></li>
+                            <li><a id='p_get_started' href="home.html#pricing" title="get started"><button id='button'>GET STARTED</button></a></li>
+                        </ul>
+                    </nav>
+                </div>                                           
+<!--конец меню навигации-->
+                </div>       
+                <div class="map-container">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14669.671337714097!2d27.5572662396632!3d53.9013204390377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfc053436dc5%3A0x11c152f6c11cbfb!2sKastry%C4%8Dnickaja!5e0!3m2!1sen!2sby!4v1612247374800!5m2!1sen!2sby" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+        </header> 
+        <article> 
+<!--6-ая секция.-->
+            <section>
+                <div class="block6-1">
+                    <div><h1 class="chapter">Get In Touch With Us</h1></div>
+                    <div class="line"></div>
+                    <div class="chapter">
+                        We are here to help. Want to learn more about our services?
+                        Please get in touch, we'd love to hear from you!
+                    </div>
+                </div>
+                <div class="block6-2">
+                    <div class="form-container">
+                        <form method=POST enctype='multipart/form-data'>                           
+                            <div class="form"><input type="text" name="name" maxlength="30" placeholder="Name"></div>
+                            <div class="form"><input type="text" name="email" maxlength="30" placeholder="Email"></div>
+                            <div class="form"><input type="text" name="tel" maxlength="15" placeholder="Phone"></div>
+                            <div class="form-message"><input type="text" name="message" placeholder="Message"></div>
+                            <div><input id="button-message" type="submit" value="send message"></div>                        
+                        </form> 
+                    </div>                    
+                    <div class="info">
+                        <p>Headquarter</p>
+                        <p><i class="icon-location"></i>610 Overlook Circle</p>
+                        <p>Suite 323</p>
+                        <p>Kalamazoo, MI 49009</p>
+                        <p><i class="icon-phone"></i>+62 202 555 0117</p>
+                        <p><i class="icon-mail"></i>hi&#64;wapik.com</p>
+                    </div>
+                </div>
+            </section>
+<!--8-ая секция. "Скачать"-->
+            <section>
+                <div class="cover-img8">
+                    <div class="block8-1">
+                        <div>
+                            <h1 class="chapter">Do You Like Wapik? Download it Now</h1>
+                            <div class="chapter">
+                                Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                            </div>
+                        </div>
+                        <div><button id='button'>DOWNLOAD NOW! &minus; FREE FOREVER</button></div>
+                    </div>
+                </div>
+            </section>
+        </article>
+<!--подвал страницы-->
+        <footer>
+            <div class="footer1">
+                <div class="footer1-1">
+                    <span class="wapik">WAPIK</span><br>
+                    <span>&#64;: </span><span class="email">hi&#64;wapik.com</span><br>
+                    <p>p: &plus;62 202 555 0117</p>
+                    <p>a: 610 Overlook Circle Suite 323</p>
+                    <span>Kalamazoo, MI 49009</span>
+                </div>
+                <div id="company" class="footer-column">
+                    <p>Company</p>
+                    <ul>
+                        <li><a href="home.html" title="home">Home</a></li>
+                        <li><a href="aboutUs.html" title="about us">About Us</a></li>
+                        <li><a href="pricing.html" title="pricing">Pricing</a></li>
+                        <li><a href="#" title="contact us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="others" class="footer-column">
+                    <p>Others</p>
+                    <ul>
+                        <li><a href="home.html#help" title="help and support">Help &amp; Support</a></li>
+                        <li><a href="#" title="privacy policy">Privacy Policy</a></li>
+                        <li><a href="404Error.html" title="terms">Terms</a></li>
+                        <li><a href="#" title="sitemap">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <p>NewsLetter</p>
+                    <ul>
+                        <li>Subscribe to our newsletter and get all<br>
+                            the cool news
+                        </li>
+                        <li class="up">
+                            <form>
+                                <div class="search-container">
+                                    <input type="email" maxlength="30" placeholder="Enter Email">
+                                    <button class="email"><i class="icon-paper-plane-empty"></i></button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-line"></div>
+            <div class="footer1-2">
+                <div>All rights reserved 2015.</div>
+                <div>
+                    <ul>
+                        <li><a href="https://twitter.com/" target="_blank" title="twitter"><i class="icon-twitter-circled"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" title="facebook"><i class="icon-facebook-circled"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" title="instagram"><i class="icon-instagram-circled"></i></a></li>
+                        <li><a href="https://dribbble.com/" target="_blank" title="dribbble"><i class="icon-dribbble-circled"></i></a></li>
+                        <li><a href="https://github.com/" target="_blank" title="github"><i class="icon-github-circled"></i></a></li>
+                    </ul>
+                </div>               
+            </div>
+        </footer>
+        		<!-- Подключаем jQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<!-- Подключаем файл JS скриптов -->
+		<script src="script/script_burger-menu.js"></script>
+    </body>
+</html>
