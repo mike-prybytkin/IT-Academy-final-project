@@ -2,7 +2,7 @@
 
 /*фоновое изображение хедера*/
 .header-image{
-    background: url(/image/Layer-29.jpg) no-repeat center center;
+    background: url(../image/Layer-29.jpg) no-repeat center center;
 }
 /*выделение активной страницы*/
 #p_about_us{
@@ -148,7 +148,7 @@ div.chapter{
 
 /*8-ой блок. "Скачать"*/
 .cover-img8{
-    background: url(/image/Layer-11.png) no-repeat center center;
+    background: url(../image/Layer-11.png) no-repeat center center;
     width: 100%;
 }
 .block8-1{
